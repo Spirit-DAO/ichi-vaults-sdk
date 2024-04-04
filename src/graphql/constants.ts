@@ -103,6 +103,16 @@ export const graphUrls: Record<SupportedChainId, dexGraph> = {
     [SupportedDex.Equalizer]: {
       url: 'https://api.thegraph.com/subgraphs/name/ichi-org/fantom-v1-equalizer',
       supportsCollectFees: true,
+	},
+	[SupportedDex.SpiritSwap]: {
+	  url: 'none',
+	  supportsCollectFees: true,
+	},
+  },
+  [SupportedChainId.fantom_testnet]: {
+    [SupportedDex.SpiritSwap]: {
+      url: 'none',
+      supportsCollectFees: true,
     },
   },
   // [SupportedChainId.hedera]: {
